@@ -1,0 +1,75 @@
+.main{
+    display: grid;
+    background-image: url(../image/backgroundimage.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    place-items: center;
+
+}
+.navgation{
+    background-color: rgba(20,33,51,0.7);
+    background-clip: content-box;
+    border-radius: 10px;
+    list-style-type: none;
+    display : flex;
+    gap: 50px;
+    padding-left: 0px;
+}
+.nav-element{
+    font-size: 25px;
+    color: white;
+    background-clip: content-box;
+    border-radius: 10px;
+}
+.nav-element.clicked{
+    background-color: white;
+    color: black;
+}
+.nav-element:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+p{
+    font-size: 40pt;
+    color: white;
+}
+.fa-solid{
+    font-size: 15pt;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+input{
+    height: 30px;
+    width: 40vw;
+}
+.news{
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+.news-div{
+    width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.newsList{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.search{
+    display: grid;
+    place-items: center;
+}
+button{
+    width: 10vw;
+    margin-top: 10px;
+    height: 40px;
+}
+.news-line{
+    padding-bottom: 10px;
+}
